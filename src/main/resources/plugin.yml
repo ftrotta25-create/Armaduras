@@ -1,0 +1,13 @@
+name: FloatArmors
+main: net.floatmc.armors.FloatArmors
+version: 1.0.0
+api-version: '1.20'
+description: Armadura de la Tempestad y Regalia del Vacío
+commands:
+  floatarmors:
+    description: Dar armaduras de FloatMC
+    aliases: [fa]
+    usage: /floatarmors give <jugador> <id>
+permissions:
+  floatarmors.admin:
+    default: op
